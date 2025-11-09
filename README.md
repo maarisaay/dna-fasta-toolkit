@@ -43,3 +43,26 @@ Generuje wykresy PNG dla pierwszych 30 pozycji sekwencji:
 - Wykres słupkowy - rozkład nukleotydów
 - Heatmapa - pozycja vs typ nukleotydu
 - Wykres liniowy - % GC w każdej pozycji
+
+### CSV Report
+
+- Identyfikator sekwencji
+- Liczba nukleotydów (A, T, G, C)
+- % zawartość GC
+- Pozycje motywów (ATG, TATA, GAATTC)
+- Pierwsze 10 nukleotydów reverse complement
+- Długości białek w 6 ramkach odczytu
+
+### Sequence Rating
+
+Według dwóch kryteriów:
+<br />Kryterium A
+- Najbardziej zbalansowane sekwencje
+- Minimalna różnica między liczbą nukleotydów
+
+<br />Kryterium B
+- Najciekawsze sekwencje
+- Potencjał kodujący (liczba kodonów START)
+- Optymalna zawartość GC (40-60%)
+- Miejsca restrykcyjne i sekwencje regulatorowe
+- Różnorodność nukleotydów
